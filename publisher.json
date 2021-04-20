@@ -1,8 +1,8 @@
 {
   "transport": {
-    "repository": "https://git.lumi.vn/lumi_lamns/test-update-app.git",
+    "repository": "https://github.com/sonlamnguyen/test-update.git",
     "module": "github",
-    "token": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCse4xA5zPQAT1TK8xtttwqquGYhOJF8bEICWrux0t4JEg1OaAb0rz2s1oisZo6zF/77g9FRhSoNnDvcVCuRwFpMRL9RNhXVvO8Ybd1/26LRuZixTeOtCmudhT+UB+IJkTgvNkMyTOz4K409GAqMXwPpz5Gh1MtcZto6qeQ0syp5HewpiDpwTGP0s+MsZJUAA5iF0KMuMNe9MRAZeU5cgDdRC1j1WwLFwHjesO189yaLOacNkG7OysKcUX3tSu46BHUEoJSmWswcOwPGiS1Ct4LNMsYBzkKnM5tMPxt7eEO9b+UA7DpZTxTf7p6meH6KZh+LDsdxzS9PxfNK1EhFXCv+kB5lKM/WGAOMD+WMZAcFb86u4Scd078p8sa14RB7M2oOXiIOI/1SqqG9gNjBN0Qfa7yM0rDmOLcXEqAatB6TJ9LEUUsRRZlbLZPPw5wiX/4X3FQ8RjXKHRPZ3TmH2dr1qcoqGDXkqMnmry+Z4LEFcAjegirzeaLuE5/4z6/AjJEL86bX+JeYDmzD1llWhR2SRTlIfo5GNCGsZawSgqiCftSDIDMQA5eSTnc53xHe9Adkk2PZKDEa3dXVwHix2N8Y/ptO+ZFxd9OzEIkR/Vq7UUwa8YsazTLFERfBB4qU0SClQVKc1Ik0s3h1zSLeE+s5DDz19Et/5ktR9xLUUgQNw== lamns@lumi.biz",
+    "token": "D9oatbMkKKU7Ce7PERsr",
     "updatesJsonPath": "updates.json"
   }
 }
