@@ -1,0 +1,20 @@
+directories:
+  output: dist
+  buildResources: build
+appId: megahertz.electron-simple-updater-example
+files:
+  - filter:
+      - '!publisher.json'
+      - '!README.md'
+      - '!updates.json'
+linux:
+  category: Development
+  publish: null
+  target: AppImage
+mac:
+  category: public.app-category.developer-tools
+win:
+  target: squirrel
+squirrelWindows:
+  iconUrl: https://github.com/sonlamnguyen/test-update/blob/master/build/icon.ico
+electronVersion: 12.0.4
