@@ -1,6 +1,6 @@
 {
   "name": "simple-updater-example",
-  "productName": "Simple Updater Example",
+  "productName": "simple-updater-example",
   "version": "0.0.4",
   "description": "Example of using electron-simple-updater",
   "main": "app/main.js",

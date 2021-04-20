@@ -9,7 +9,8 @@ const updater                = require('electron-simple-updater');
 updater.init({
   checkUpdateOnStart: false,
   autoDownload: false,
-  url: 'https://raw.githubusercontent.com/sonlamnguyen/test-update/master/updates.json'
+  url: 'https://raw.githubusercontent.com/sonlamnguyen/test-update/master/updates.json',
+  version: '0.0.1'
 });
 
 let mainWindow;
