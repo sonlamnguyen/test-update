@@ -2,7 +2,7 @@
   "transport": {
     "repository": "https://github.com/sonlamnguyen/test-update.git",
     "module": "github",
-    "token": "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",
+    "token": "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",
     "updatesJsonPath": "updates.json"
   }
 }
