@@ -18,6 +18,7 @@ function attachUiHandlers() {
   const chkAutomatically = document.getElementById('automatically');
 
   btnUpdate.addEventListener('click', () => {
+    document.getElementById('log-messages').textContent = "hello";
     updater.checkForUpdates();
     document.body.classList.add('update-downloading');
   });

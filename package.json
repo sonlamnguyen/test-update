@@ -8,6 +8,7 @@
     "postinstall": "install-app-deps",
     "start": "electron .",
     "dist": "electron-builder",
+    "pack": "electron-builder --dir",
     "publish": "publish",
     "release": "npm run dist && npm run publish"
   },
@@ -23,7 +24,7 @@
     ],
     "linux": {
       "category": "Development",
-      "publish": false,
+      "publish": null,
       "target": "AppImage"
     },
     "mac": {
@@ -33,18 +34,18 @@
       "target": "squirrel"
     },
     "squirrelWindows": {
-      "iconUrl": "https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/build/icon.ico"
+      "iconUrl": "https://github.com/sonlamnguyen/test-update/blob/master/build/icon.ico"
     }
   },
   "updater": {
-    "url": "https://git.lumi.vn/lumi_lamns/test-update-app/blob/master/updates.json"
+    "url": "https://raw.githubusercontent.com/sonlamnguyen/test-update/master/updates.json"
   },
   "engines": {
     "node": ">=6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git.lumi.vn/lumi_lamns/test-update-app.git"
+    "url": "git+https://github.com/sonlamnguyen/test-update.git"
   },
   "dependencies": {
     "electron-simple-updater": "^2.0.0-beta.1"
